@@ -1,7 +1,8 @@
 # docker_demo
 Demo de Docker
 
-
+RUN:
+docker compose up
 
 
 
