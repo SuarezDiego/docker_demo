@@ -1,0 +1,45 @@
+# Entornos virtuales
+venv/
+.env
+*.env
+
+# Archivos pycache y compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# Archivos de configuración locales
+*.sqlite3
+*.db
+*.pid
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+*.img
+docker-compose.override.yml
+
+# VSCode (opcional)
+.vscode/
+
+# Pytest
+.cache/
+htmlcov/
+.coverage*
+
+# mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
