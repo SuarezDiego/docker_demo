@@ -1,11 +1,21 @@
 version: "3.8"
 
 services:
-  web:
+  api1:
     build: .
     ports:
-      - "8000:8000"
-    volumes:
-      - ./app:/app
+      - "8001:8000"
     environment:
-      - PYTHONUNBUFFERED=1
+      - PORT=8001
+  api2:
+    build: .
+    ports:
+      - "8002:8000"
+    environment:
+      - PORT=8002
+  api3:
+    build: .
+    ports:
+      - "8003:8000"
+    environment:
+      - PORT=8003
